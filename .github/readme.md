@@ -25,6 +25,20 @@ SillyTavern (or ST for short) is a locally installed user interface that allows 
 
 Beginning in February 2023 as a fork of TavernAI 1.2.8, SillyTavern now has over 300 contributors and 3 years of independent development under its belt, and continues to serve as a leading software for savvy AI hobbyists.
 
+## How do I set up roleplay (including adult content)?
+
+SillyTavern is only the interface. What content is allowed depends on the model and API provider you connect.
+
+1. Choose a backend that allows your intended use. Some hosted providers may block explicit roleplay by policy.
+2. Connect an uncensored or self-hosted model through supported backends (for example KoboldCpp, Ooba, or Ollama).
+3. Use strong character cards and system prompts to define tone, boundaries, and writing style.
+4. Add an Author's Note/behavior reminder so responses stay in-character.
+5. Tune generation settings (temperature, top-p, repetition penalty, max tokens) for natural scene flow.
+6. Use World Info/lorebooks for continuity across longer chats.
+7. Prefer private/local deployments for sensitive content and always follow consent and local law.
+
+For backend-specific setup steps, see the docs site: <https://docs.sillytavern.app/>.
+
 ## Our Vision
 
 1. We aim to empower users with as much utility and control over their LLM prompts as possible. The steep learning curve is part of the fun!
